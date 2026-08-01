@@ -1,0 +1,17 @@
+Michael Chen
+michael.chen@email.com
++1 (206) 555-2020
+
+Summary
+Machine learning engineer focused on generative AI, model evaluation, and MLOps workflows.
+
+Technical Skills
+Python, PyTorch, TensorFlow, NLP, LLMs, MLflow, pandas, NumPy, SQL, AWS, Docker, Git, GitHub
+
+Experience
+4 years
+ML Engineer | Northwind AI | 2020-Present
+Developed fine-tuning pipelines, experiment tracking systems, and cloud-hosted AI services.
+
+Education
+Master's in Data Science, University of Washington

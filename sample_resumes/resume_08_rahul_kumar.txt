@@ -1,0 +1,17 @@
+Rahul Kumar
+rahul.kumar@email.com
++1 (972) 555-8080
+
+Summary
+Developer with experience in data pipelines and basic AI integrations.
+
+Technical Skills
+Java, Python, REST APIs, SQL, Git, GitHub, Docker, basic NLP
+
+Experience
+4 years
+Software Engineer | Nexora Technologies | 2020-Present
+Built enterprise services and integrated simple AI features into internal tools.
+
+Education
+Bachelor's in Electronics Engineering, Indian Institute of Technology Delhi

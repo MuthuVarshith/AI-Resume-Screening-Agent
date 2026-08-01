@@ -1,0 +1,17 @@
+Maya Chen
+maya.chen@email.com
++1 (858) 555-1100
+
+Summary
+Applied AI engineer with experience in machine learning products and cloud deployment.
+
+Technical Skills
+Python, PyTorch, TensorFlow, NLP, LLMs, AWS, Docker, Kubernetes, Git, GitHub, MLflow
+
+Experience
+5 years
+Applied AI Engineer | Northwind Cloud | 2019-Present
+Delivered AI-powered services, model monitoring solutions, and cloud-native ML platforms.
+
+Education
+Master's in Computer Science, Georgia Institute of Technology

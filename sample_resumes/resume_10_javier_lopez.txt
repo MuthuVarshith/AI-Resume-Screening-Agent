@@ -1,0 +1,17 @@
+Javier Lopez
+javier.lopez@email.com
++1 (949) 555-1000
+
+Summary
+AI engineer specializing in prompt engineering, retrieval systems, and LLM application development.
+
+Technical Skills
+Python, LLMs, LangChain, vector databases, embeddings, SQL, Docker, Git, GitHub, pandas
+
+Experience
+3 years
+Prompt Engineer | BrightBridge AI | 2021-Present
+Built LLM workflows, benchmarked prompt strategies, and connected retrieval systems to user products.
+
+Education
+Bachelor's in Software Engineering, Arizona State University

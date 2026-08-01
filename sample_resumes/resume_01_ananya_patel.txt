@@ -1,0 +1,17 @@
+Ananya Patel
+ananya.patel@email.com
++1 (512) 555-1010
+
+Summary
+Applied AI engineer with 6 years of experience building NLP systems, LLM apps, and production ML pipelines.
+
+Technical Skills
+Python, PyTorch, TensorFlow, NLP, Large Language Models, LangChain, Hugging Face, pandas, NumPy, SQL, Git, GitHub, Docker
+
+Experience
+6 years
+Applied AI Engineer | Nova AI Labs | 2019-Present
+Built retrieval-augmented generation systems, deployed LLM-powered workflows, and optimized model inference pipelines.
+
+Education
+Master's in Computer Science, University of Texas at Austin

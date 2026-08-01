@@ -1,0 +1,17 @@
+Priya Nair
+priya.nair@email.com
++1 (650) 555-5050
+
+Summary
+Data scientist transitioning into AI engineering with strong model deployment experience.
+
+Technical Skills
+Python, PyTorch, pandas, NumPy, SQL, NLP, Docker, Git, GitHub, scikit-learn
+
+Experience
+2 years
+ML Engineer | Finverse Labs | 2022-Present
+Built and deployed forecasting and classification models, and supported production monitoring.
+
+Education
+Master's in Data Science, University of California, Berkeley

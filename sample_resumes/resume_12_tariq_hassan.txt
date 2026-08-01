@@ -1,0 +1,17 @@
+Tariq Hassan
+tariq.hassan@email.com
++1 (305) 555-1200
+
+Summary
+Entry-level AI enthusiast building fundamentals in machine learning and Python development.
+
+Technical Skills
+Python, pandas, NumPy, SQL, scikit-learn, Git, GitHub, basic NLP
+
+Experience
+1 year
+Junior Data Scientist | LocalStack AI | 2023-Present
+Supported model experiments, data cleaning, and basic deployment tasks for AI prototypes.
+
+Education
+Bachelor's in Computer Science, Florida International University

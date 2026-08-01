@@ -1,0 +1,17 @@
+Owen Brooks
+owen.brooks@email.com
++1 (617) 555-6060
+
+Summary
+Software support specialist exploring AI applications and data workflows.
+
+Technical Skills
+Python, SQL, Excel, Git, GitHub, basic NLP, pandas
+
+Experience
+1 year
+Operations Analyst | BrightPoint AI | 2023-Present
+Supported internal automation and data reporting tasks with light scripting and analytics work.
+
+Education
+Associate's in Information Systems, Boston College

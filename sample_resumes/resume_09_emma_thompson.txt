@@ -1,0 +1,17 @@
+Emma Thompson
+emma.thompson@email.com
++1 (503) 555-9090
+
+Summary
+Research engineer with expertise in NLP, model evaluation, and applied AI systems.
+
+Technical Skills
+Python, PyTorch, NLP, transformers, Hugging Face, pandas, NumPy, SQL, Git, GitHub, Docker
+
+Experience
+6 years
+Research Engineer | Insight Labs | 2018-Present
+Developed language models, benchmarked NLP systems, and built evaluation pipelines.
+
+Education
+Master's in Data Science, Oregon State University

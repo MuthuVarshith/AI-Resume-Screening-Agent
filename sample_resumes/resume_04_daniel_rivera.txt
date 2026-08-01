@@ -1,0 +1,17 @@
+Daniel Rivera
+daniel.rivera@email.com
++1 (312) 555-4040
+
+Summary
+Full-stack developer with a growing focus on AI integrations and LLM application architecture.
+
+Technical Skills
+Python, JavaScript, TensorFlow, LLMs, REST APIs, LangChain, Docker, Git, GitHub, SQL
+
+Experience
+3 years
+Software Engineer | BluePeak AI | 2021-Present
+Implemented AI features into web products and connected services with OpenAI-compatible APIs.
+
+Education
+Bachelor's in Computer Engineering, Illinois Institute of Technology

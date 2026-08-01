@@ -1,0 +1,61 @@
+================================================================================
+NOVA AI LABS - JOB OPENING
+================================================================================
+
+Position: AI Engineer
+Location: San Francisco, CA (Hybrid)
+Job Type: Full-Time
+Experience Level: Mid-Level (3+ Years)
+
+--------------------------------------------------------------------------------
+ABOUT US
+--------------------------------------------------------------------------------
+Nova AI Labs builds production-grade AI applications for enterprise clients across healthcare, finance, and logistics. We value strong engineering fundamentals, thoughtful experimentation, and the ability to ship reliable AI systems into real-world workflows.
+
+--------------------------------------------------------------------------------
+ROLE SUMMARY
+--------------------------------------------------------------------------------
+We are seeking an experienced AI Engineer to join our applied machine learning team. In this role, you will design, build, and deploy AI-powered features, integrate large language models into products, and collaborate closely with data scientists, backend engineers, and product teams to deliver scalable solutions.
+
+--------------------------------------------------------------------------------
+RESPONSIBILITIES
+--------------------------------------------------------------------------------
+- Design and deploy machine learning and LLM-powered applications in production.
+- Build data pipelines, feature engineering workflows, and model evaluation systems.
+- Develop APIs and services that expose AI capabilities to internal and external users.
+- Work with Python, PyTorch, TensorFlow, and modern ML tooling to train and optimize models.
+- Collaborate with product and engineering teams to define AI use cases and ship features quickly.
+- Monitor model performance, drift, latency, and reliability in production environments.
+- Create documentation, experiments, and reusable components for the ML platform.
+- Participate in code reviews and technical design discussions.
+
+--------------------------------------------------------------------------------
+REQUIREMENTS
+--------------------------------------------------------------------------------
+- 3+ years of experience in machine learning, AI engineering, or applied data science.
+- Strong proficiency in Python and machine learning frameworks such as PyTorch or TensorFlow.
+- Experience building and deploying AI systems using APIs, containers, or cloud services.
+- Solid knowledge of NLP, LLM workflows, or generative AI applications.
+- Experience with data processing tools such as pandas, NumPy, or SQL.
+- Strong version control habits using Git and GitHub workflows.
+- Bachelor's or Master's degree in Computer Science, AI, Machine Learning, or a related field.
+
+--------------------------------------------------------------------------------
+NICE TO HAVE (PREFERRED SKILLS)
+--------------------------------------------------------------------------------
+- Experience with vector databases, embeddings, or retrieval systems.
+- Familiarity with MLOps tools such as MLflow, DVC, or Weights & Biases.
+- Experience with cloud platforms such as AWS, Azure, or GCP.
+- Knowledge of Docker, Kubernetes, or CI/CD pipelines.
+- Experience working with LangChain, Hugging Face, or OpenAI APIs.
+
+--------------------------------------------------------------------------------
+BENEFITS & PERKS
+--------------------------------------------------------------------------------
+- Competitive salary ($140,000 - $180,000) + equity options.
+- Health, Dental, and Vision insurance with 90% company coverage.
+- 401(k) matching up to 4%.
+- Flexible hybrid work arrangement (3 days remote per week).
+- $3,000 annual learning budget for conferences and certifications.
+- Generous PTO and wellness support.
+================================================================================

@@ -1,0 +1,17 @@
+Lina Fernandez
+lina.fernandez@email.com
++1 (214) 555-7070
+
+Summary
+Senior ML engineer experienced in training, fine-tuning, and serving AI models.
+
+Technical Skills
+Python, PyTorch, TensorFlow, NLP, LLMs, Hugging Face, AWS, Docker, Kubernetes, Git, GitHub
+
+Experience
+7 years
+Senior ML Engineer | Orbit Analytics | 2017-Present
+Led model training pipelines, evaluation frameworks, and production deployment on AWS.
+
+Education
+Master's in Computer Science, University of Texas at Dallas

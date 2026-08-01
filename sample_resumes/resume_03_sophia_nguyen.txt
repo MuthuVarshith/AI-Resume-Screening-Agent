@@ -1,0 +1,17 @@
+Sophia Nguyen
+sophia.nguyen@email.com
++1 (415) 555-3030
+
+Summary
+AI engineer with experience in production ML, embeddings, and vector search applications.
+
+Technical Skills
+Python, PyTorch, NLP, embeddings, vector databases, LangChain, Hugging Face, SQL, pandas, Git, GitHub, pytest
+
+Experience
+5 years
+AI Engineer | VectorWorks | 2018-Present
+Built semantic search systems, ranking pipelines, and APIs for AI-driven knowledge assistants.
+
+Education
+Bachelor's in Computer Science, San Jose State University
