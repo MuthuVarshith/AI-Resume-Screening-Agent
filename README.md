@@ -4,28 +4,36 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![AI Agent Demo](https://img.shields.io/badge/Project-AI%20Agent%20Demo-orange.svg)](https://github.com/MuthuVarshith/AI-Resume-Screening-Agent)
 
-An AI-powered resume screening agent that parses resumes, matches them against a job description, and produces a ranked shortlist with explainable scoring. It is a practical demo of an AI agent that combines NLP, structured heuristics, and optional LLM reasoning for recruiting workflows.
+Public GitHub repository: https://github.com/MuthuVarshith/AI-Resume-Screening-Agent
 
-## Why This Project
+This project is a Resume Screening Agent, one of the AI agent challenge options. It reads a job description, evaluates a folder of resumes, and produces a ranked shortlist with explainable scoring.
 
-This project demonstrates a complete agent loop:
-1. Read a job description.
-2. Scan a folder of resumes.
-3. Extract signals like skills, experience, and education.
-4. Score and rank candidates.
-5. Save the results as JSON and CSV.
+## What This Agent Does
 
-The result is a lightweight, transparent screening workflow that can run locally without needing a paid API.
+This agent is built to:
+- parse resumes and extract skills, experience, and education,
+- compare them against a job description,
+- compute a relevance score using NLP similarity and structured heuristics,
+- rank candidates and generate a shortlist,
+- save the results as CSV and JSON for review.
 
-## Features
+### Expected Capabilities
 
-- Parses a job description and candidate resumes
-- Uses semantic similarity via sentence-transformers
-- Applies a transparent multi-signal scoring system
-- Produces explainable output with matched and missing skills
-- Saves ranked results to JSON and CSV
-- Runs locally with the `--no-llm` flag
-- Supports optional Gemini-based reasoning when an API key is present
+- Parse 10+ resumes in a single run
+- Score each resume against the job description
+- Output an ordered shortlist with reasoning
+- Provide a transparent, explainable ranking instead of a black-box result
+
+## How the AI Agent Works
+
+This agent follows a simple loop:
+1. Read the job description.
+2. Discover the resumes in the sample folder.
+3. Extract candidate signals from each resume.
+4. Score and rank the candidates.
+5. Save the ranked results for human review.
+
+This is the core Input → Think → Act → Output pattern of an AI agent.
 
 ## Project Structure
 
@@ -39,9 +47,9 @@ The result is a lightweight, transparent screening workflow that can run locally
 - `sample_jd/jd.txt` – sample job description
 - `sample_resumes/` – sample resumes used for the demo
 - `output/` – generated ranked results
-- `tests/` – test suite for the scoring pipeline
+- `tests/` – unit tests for the scoring pipeline
 
-## Quick Start
+## Setup Instructions
 
 ### 1) Install dependencies
 
@@ -49,25 +57,7 @@ The result is a lightweight, transparent screening workflow that can run locally
 pip install -r requirements.txt
 ```
 
-### 2) Run the demo
-
-```bash
-python main.py --jd sample_jd/jd.txt --resumes sample_resumes --output output --no-llm
-```
-
-### Windows PowerShell
-
-```powershell
-py -3 main.py --jd sample_jd/jd.txt --resumes sample_resumes --output output --no-llm
-```
-
-### 3) View the results
-
-The agent writes outputs to:
-- `output/ranked_results.json`
-- `output/ranked_results.csv`
-
-## Optional LLM Setup
+### 2) Create an environment file (optional)
 
 The project works without an API key. If you want optional Gemini-based reasoning, create a `.env` file from the example:
 
@@ -81,26 +71,65 @@ Then add your key:
 GOOGLE_API_KEY=your_api_key_here
 ```
 
-## How the Scoring Works
+## How to Run the Agent End to End
 
-The ranking is built from a transparent, explainable score:
+### Linux or macOS
 
-- Semantic similarity (40%) – compares resume text and JD embeddings
-- Skill match (30%) – checks required skills against extracted skills
-- Experience (15%) – rewards candidates who meet the experience requirement
-- Education (15%) – scores the highest qualification against the JD requirement
+```bash
+python main.py --jd sample_jd/jd.txt --resumes sample_resumes --output output --no-llm
+```
 
-This makes the results easier to inspect than a fully opaque black-box ranking.
+### Windows PowerShell
 
-## Example Output
+```powershell
+py -3 main.py --jd sample_jd/jd.txt --resumes sample_resumes --output output --no-llm
+```
 
-A sample run on the included dataset produces a ranked shortlist such as:
+### With optional LLM support
+
+If you have a valid Google API key configured, run:
+
+```bash
+python main.py --jd sample_jd/jd.txt --resumes sample_resumes --output output
+```
+
+## Sample Inputs and Outputs
+
+### Sample Input
+
+- Job description: `sample_jd/jd.txt`
+- Resume folder: `sample_resumes/`
+
+### Sample Output
+
+The agent writes:
+- `output/ranked_results.json`
+- `output/ranked_results.csv`
+
+Example ranked output from the included sample data:
 
 ```text
 1. Michael Chen — 73.7
 2. Ananya Patel — 72.1
 3. Sophia Nguyen — 67.8
 ```
+
+## Agent-Specific Deliverables
+
+This submission includes:
+- a job description file,
+- a folder of sample resumes,
+- ranked output in CSV and JSON,
+- a short explanation of the scoring method.
+
+## Scoring Method
+
+The ranking is built from a transparent multi-signal score:
+
+- Semantic similarity (40%) – compares resume text and job description embeddings
+- Skill match (30%) – checks required skills against extracted skills
+- Experience (15%) – rewards candidates who meet the experience requirement
+- Education (15%) – scores the highest qualification against the job requirement
 
 ## Testing
 
@@ -113,7 +142,7 @@ pytest
 ## Tradeoffs and Notes
 
 - The agent is intentionally simple and easy to run locally.
-- It focuses on transparency and reproducibility rather than a full enterprise recruiting system.
+- It focuses on transparency and reproducibility instead of a fully enterprise recruiting system.
 - LLM support is optional; the default path works without external API access.
 - The current implementation targets text-based resumes for a clean demo experience.
 
