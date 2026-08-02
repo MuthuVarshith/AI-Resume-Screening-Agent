@@ -46,6 +46,26 @@ The agent follows a simple Input → Think → Act → Output loop:
 
 This makes the system easy to understand, reproduce, and explain.
 
+## How to Run the Agent
+
+The default run is fully local and does not require an API key:
+
+```bash
+python main.py --jd sample_jd/jd.txt --resumes sample_resumes --output output --no-llm
+```
+
+If you want to enable the optional AI enhancement, set your Google API key in the environment and run:
+
+```bash
+python main.py --jd sample_jd/jd.txt --resumes sample_resumes --output output
+```
+
+### LLM and model choice
+
+- Default local path: sentence-transformers with the all-MiniLM-L6-v2 embedding model
+- Optional AI enhancement: Google Gemini via the gemini-2.0-flash model
+- The project is designed so reviewers can still run the agent even if the LLM quota is unavailable
+
 ## Project Structure and Execution Order
 
 The repository is organized in the following order so reviewers can understand the flow quickly:
@@ -107,6 +127,13 @@ If you have a valid Google API key configured, run:
 ```bash
 python main.py --jd sample_jd/jd.txt --resumes sample_resumes --output output
 ```
+
+### What happens during the run
+
+- The job description is parsed and converted into structured requirements.
+- Each resume is scanned and converted into a candidate profile.
+- The agent compares the resume profile with the job requirements.
+- A ranked shortlist is written to CSV and JSON files for review.
 
 ## Sample Inputs and Outputs
 
