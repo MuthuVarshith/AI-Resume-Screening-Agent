@@ -2,277 +2,277 @@
     {
         "rank": 1,
         "name": "Michael Chen",
-        "file": "sample_resumes/resume_02_michael_chen.txt",
+        "file": "sample_resumes\\resume_02_michael_chen.txt",
         "composite_score": 73.69,
         "semantic_score": 43.6,
         "skill_match_score": 87.5,
         "experience_score": 100.0,
         "education_score": 100.0,
         "matched_skills": [
+            "tensorflow",
+            "github",
             "python",
             "git",
-            "github",
-            "tensorflow",
+            "numpy",
             "pandas",
-            "pytorch",
-            "numpy"
+            "pytorch"
         ],
         "missing_skills": [
             "machine learning"
         ],
-        "reasoning": "Ranked #1 with a composite score of 73.7/100. Matched 7/8 required skills (python, git, github, tensorflow, pandas). Key gaps: missing machine learning. Meets experience requirements."
+        "reasoning": "Ranked #1 with a composite score of 73.7/100. Matched 7/8 required skills (tensorflow, github, python, git, numpy). Key gaps: missing machine learning. Meets experience requirements."
     },
     {
         "rank": 2,
         "name": "Ananya Patel",
-        "file": "sample_resumes/resume_01_ananya_patel.txt",
+        "file": "sample_resumes\\resume_01_ananya_patel.txt",
         "composite_score": 72.07,
         "semantic_score": 39.54,
         "skill_match_score": 87.5,
         "experience_score": 100.0,
         "education_score": 100.0,
         "matched_skills": [
+            "tensorflow",
+            "github",
             "python",
             "git",
-            "github",
-            "tensorflow",
+            "numpy",
             "pandas",
-            "pytorch",
-            "numpy"
+            "pytorch"
         ],
         "missing_skills": [
             "machine learning"
         ],
-        "reasoning": "Ranked #2 with a composite score of 72.1/100. Matched 7/8 required skills (python, git, github, tensorflow, pandas). Key gaps: missing machine learning. Meets experience requirements."
+        "reasoning": "Ranked #2 with a composite score of 72.1/100. Matched 7/8 required skills (tensorflow, github, python, git, numpy). Key gaps: missing machine learning. Meets experience requirements."
     },
     {
         "rank": 3,
         "name": "Sophia Nguyen",
-        "file": "sample_resumes/resume_03_sophia_nguyen.txt",
+        "file": "sample_resumes\\resume_03_sophia_nguyen.txt",
         "composite_score": 67.81,
         "semantic_score": 47.64,
         "skill_match_score": 62.5,
         "experience_score": 100.0,
         "education_score": 100.0,
         "matched_skills": [
+            "github",
             "python",
             "git",
-            "github",
             "pandas",
             "pytorch"
         ],
         "missing_skills": [
-            "machine learning",
             "tensorflow",
+            "machine learning",
             "numpy"
         ],
-        "reasoning": "Ranked #3 with a composite score of 67.8/100. Matched 5/8 required skills (python, git, github, pandas, pytorch). Key gaps: missing machine learning, tensorflow, numpy. Meets experience requirements."
+        "reasoning": "Ranked #3 with a composite score of 67.8/100. Matched 5/8 required skills (github, python, git, pandas, pytorch). Key gaps: missing tensorflow, machine learning, numpy. Meets experience requirements."
     },
     {
         "rank": 4,
         "name": "Priya Nair",
-        "file": "sample_resumes/resume_05_priya_nair.txt",
+        "file": "sample_resumes\\resume_05_priya_nair.txt",
         "composite_score": 66.89,
         "semantic_score": 48.47,
         "skill_match_score": 75.0,
         "experience_score": 66.67,
         "education_score": 100.0,
         "matched_skills": [
+            "github",
             "python",
             "git",
-            "github",
+            "numpy",
             "pandas",
-            "pytorch",
-            "numpy"
+            "pytorch"
         ],
         "missing_skills": [
-            "machine learning",
-            "tensorflow"
+            "tensorflow",
+            "machine learning"
         ],
-        "reasoning": "Ranked #4 with a composite score of 66.9/100. Matched 6/8 required skills (python, git, github, pandas, pytorch). Key gaps: missing machine learning, tensorflow. Experience partially meets requirements (67%)."
+        "reasoning": "Ranked #4 with a composite score of 66.9/100. Matched 6/8 required skills (github, python, git, numpy, pandas). Key gaps: missing tensorflow, machine learning. Experience partially meets requirements (67%)."
     },
     {
         "rank": 5,
         "name": "Lina Fernandez",
-        "file": "sample_resumes/resume_07_lina_fernandez.txt",
+        "file": "sample_resumes\\resume_07_lina_fernandez.txt",
         "composite_score": 65.93,
         "semantic_score": 42.96,
         "skill_match_score": 62.5,
         "experience_score": 100.0,
         "education_score": 100.0,
         "matched_skills": [
+            "tensorflow",
+            "github",
             "python",
             "git",
-            "github",
-            "tensorflow",
             "pytorch"
         ],
         "missing_skills": [
             "machine learning",
-            "pandas",
-            "numpy"
+            "numpy",
+            "pandas"
         ],
-        "reasoning": "Ranked #5 with a composite score of 65.9/100. Matched 5/8 required skills (python, git, github, tensorflow, pytorch). Key gaps: missing machine learning, pandas, numpy. Meets experience requirements."
+        "reasoning": "Ranked #5 with a composite score of 65.9/100. Matched 5/8 required skills (tensorflow, github, python, git, pytorch). Key gaps: missing machine learning, numpy, pandas. Meets experience requirements."
     },
     {
         "rank": 6,
         "name": "Emma Thompson",
-        "file": "sample_resumes/resume_09_emma_thompson.txt",
+        "file": "sample_resumes\\resume_09_emma_thompson.txt",
         "composite_score": 65.9,
         "semantic_score": 33.51,
         "skill_match_score": 75.0,
         "experience_score": 100.0,
         "education_score": 100.0,
         "matched_skills": [
+            "github",
             "python",
             "git",
-            "github",
+            "numpy",
             "pandas",
-            "pytorch",
-            "numpy"
+            "pytorch"
         ],
         "missing_skills": [
-            "machine learning",
-            "tensorflow"
+            "tensorflow",
+            "machine learning"
         ],
-        "reasoning": "Ranked #6 with a composite score of 65.9/100. Matched 6/8 required skills (python, git, github, pandas, pytorch). Key gaps: missing machine learning, tensorflow. Meets experience requirements."
+        "reasoning": "Ranked #6 with a composite score of 65.9/100. Matched 6/8 required skills (github, python, git, numpy, pandas). Key gaps: missing tensorflow, machine learning. Meets experience requirements."
     },
     {
         "rank": 7,
         "name": "Maya Chen",
-        "file": "sample_resumes/resume_11_maya_chen.txt",
+        "file": "sample_resumes\\resume_11_maya_chen.txt",
         "composite_score": 65.61,
         "semantic_score": 42.14,
         "skill_match_score": 62.5,
         "experience_score": 100.0,
         "education_score": 100.0,
         "matched_skills": [
+            "tensorflow",
+            "github",
             "python",
             "git",
-            "github",
-            "tensorflow",
             "pytorch"
         ],
         "missing_skills": [
             "machine learning",
-            "pandas",
-            "numpy"
+            "numpy",
+            "pandas"
         ],
-        "reasoning": "Ranked #7 with a composite score of 65.6/100. Matched 5/8 required skills (python, git, github, tensorflow, pytorch). Key gaps: missing machine learning, pandas, numpy. Meets experience requirements."
+        "reasoning": "Ranked #7 with a composite score of 65.6/100. Matched 5/8 required skills (tensorflow, github, python, git, pytorch). Key gaps: missing machine learning, numpy, pandas. Meets experience requirements."
     },
     {
         "rank": 8,
         "name": "Javier Lopez",
-        "file": "sample_resumes/resume_10_javier_lopez.txt",
+        "file": "sample_resumes\\resume_10_javier_lopez.txt",
         "composite_score": 61.65,
         "semantic_score": 41.63,
         "skill_match_score": 50.0,
         "experience_score": 100.0,
         "education_score": 100.0,
         "matched_skills": [
+            "github",
             "python",
             "git",
-            "github",
             "pandas"
         ],
         "missing_skills": [
-            "machine learning",
             "tensorflow",
-            "pytorch",
-            "numpy"
+            "machine learning",
+            "numpy",
+            "pytorch"
         ],
-        "reasoning": "Ranked #8 with a composite score of 61.6/100. Matched 4/8 required skills (python, git, github, pandas). Key gaps: missing machine learning, tensorflow, pytorch.... Meets experience requirements."
+        "reasoning": "Ranked #8 with a composite score of 61.6/100. Matched 4/8 required skills (github, python, git, pandas). Key gaps: missing tensorflow, machine learning, numpy.... Meets experience requirements."
     },
     {
         "rank": 9,
         "name": "Daniel Rivera",
-        "file": "sample_resumes/resume_04_daniel_rivera.txt",
+        "file": "sample_resumes\\resume_04_daniel_rivera.txt",
         "composite_score": 61.11,
         "semantic_score": 40.28,
         "skill_match_score": 50.0,
         "experience_score": 100.0,
         "education_score": 100.0,
         "matched_skills": [
-            "python",
-            "git",
+            "tensorflow",
             "github",
-            "tensorflow"
+            "python",
+            "git"
         ],
         "missing_skills": [
             "machine learning",
+            "numpy",
             "pandas",
-            "pytorch",
-            "numpy"
+            "pytorch"
         ],
-        "reasoning": "Ranked #9 with a composite score of 61.1/100. Matched 4/8 required skills (python, git, github, tensorflow). Key gaps: missing machine learning, pandas, pytorch.... Meets experience requirements."
+        "reasoning": "Ranked #9 with a composite score of 61.1/100. Matched 4/8 required skills (tensorflow, github, python, git). Key gaps: missing machine learning, numpy, pandas.... Meets experience requirements."
     },
     {
         "rank": 10,
         "name": "Rahul Kumar",
-        "file": "sample_resumes/resume_08_rahul_kumar.txt",
+        "file": "sample_resumes\\resume_08_rahul_kumar.txt",
         "composite_score": 58.04,
         "semantic_score": 41.98,
         "skill_match_score": 37.5,
         "experience_score": 100.0,
         "education_score": 100.0,
         "matched_skills": [
+            "github",
             "python",
-            "git",
-            "github"
+            "git"
         ],
         "missing_skills": [
-            "machine learning",
             "tensorflow",
+            "machine learning",
+            "numpy",
             "pandas",
-            "pytorch",
-            "numpy"
+            "pytorch"
         ],
-        "reasoning": "Ranked #10 with a composite score of 58.0/100. Matched 3/8 required skills (python, git, github). Key gaps: missing machine learning, tensorflow, pandas.... Meets experience requirements."
+        "reasoning": "Ranked #10 with a composite score of 58.0/100. Matched 3/8 required skills (github, python, git). Key gaps: missing tensorflow, machine learning, numpy.... Meets experience requirements."
     },
     {
         "rank": 11,
         "name": "Tariq Hassan",
-        "file": "sample_resumes/resume_12_tariq_hassan.txt",
+        "file": "sample_resumes\\resume_12_tariq_hassan.txt",
         "composite_score": 55.01,
         "semantic_score": 40.64,
         "skill_match_score": 62.5,
         "experience_score": 33.33,
         "education_score": 100.0,
         "matched_skills": [
+            "github",
             "python",
             "git",
-            "github",
-            "pandas",
-            "numpy"
+            "numpy",
+            "pandas"
         ],
         "missing_skills": [
-            "machine learning",
             "tensorflow",
+            "machine learning",
             "pytorch"
         ],
-        "reasoning": "Ranked #11 with a composite score of 55.0/100. Matched 5/8 required skills (python, git, github, pandas, numpy). Key gaps: missing machine learning, tensorflow, pytorch. Experience partially meets requirements (33%)."
+        "reasoning": "Ranked #11 with a composite score of 55.0/100. Matched 5/8 required skills (github, python, git, numpy, pandas). Key gaps: missing tensorflow, machine learning, pytorch. Experience partially meets requirements (33%)."
     },
     {
         "rank": 12,
         "name": "Owen Brooks",
-        "file": "sample_resumes/resume_06_owen_brooks.txt",
+        "file": "sample_resumes\\resume_06_owen_brooks.txt",
         "composite_score": 48.59,
         "semantic_score": 33.98,
         "skill_match_score": 50.0,
         "experience_score": 33.33,
         "education_score": 100.0,
         "matched_skills": [
+            "github",
             "python",
             "git",
-            "github",
             "pandas"
         ],
         "missing_skills": [
-            "machine learning",
             "tensorflow",
-            "pytorch",
-            "numpy"
+            "machine learning",
+            "numpy",
+            "pytorch"
         ],
-        "reasoning": "Ranked #12 with a composite score of 48.6/100. Matched 4/8 required skills (python, git, github, pandas). Key gaps: missing machine learning, tensorflow, pytorch.... Experience partially meets requirements (33%)."
+        "reasoning": "Ranked #12 with a composite score of 48.6/100. Matched 4/8 required skills (github, python, git, pandas). Key gaps: missing tensorflow, machine learning, numpy.... Experience partially meets requirements (33%)."
     }
 ]
